@@ -36,7 +36,7 @@ pub trait RedisCommandHandler {
     fn exec(&self, _: AsyncLockedStore, _: Rc<RedisCommand>) -> String;
 }
 
-type AsyncLockedStore<'a> = Arc<RwLock<&'a mut (dyn IStore + Send + Sync)>>;
+pub type AsyncLockedStore<'a> = Arc<RwLock<&'a mut (dyn IStore + Send + Sync)>>;
 
 /// Encapsulate a redis command
 #[derive(Debug, Copy, Clone)]
