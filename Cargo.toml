@@ -1,6 +1,6 @@
 [package]
 name    = "pedis-core"
-version = "0.0.1"
+version = "0.0.2"
 edition = "2021"
 authors = ["Pathe <pathe.sene@gmail.com>"]
 rust-version = "1.78"
