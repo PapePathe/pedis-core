@@ -1,9 +1,9 @@
 [package]
 name    = "pedis-core"
-version = "0.0.2"
+version = "0.0.3"
 edition = "2021"
 authors = ["Pathe <pathe.sene@gmail.com>"]
-rust-version = "1.78"
+rust-version = "1.77.2"
 description = "Provides the core trait for a hobby redis server"
 readme = "README.md"
 repository = "https://github.com/papepathe/pedis-core"
